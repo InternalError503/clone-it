@@ -1,0 +1,30 @@
+/*
+ * Copyright (c) 2014 8pecxstudios.com
+ */
+
+#toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewTab{
+	list-style-image: url("chrome://clone-it/skin/clone_Sprite_tab.png");
+	-moz-image-region: rect(0px 16px 16px 0px);
+}
+#toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewTab[cui-areatype="menu-panel"]{
+	list-style-image: url("chrome://clone-it/skin/clone_Sprite_tab.png");
+	-moz-image-region: rect(0px 72px 32px 40px);
+}
+
+#toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewTab:not([cui-areatype="toolbar"])> .toolbarbutton-icon{
+	list-style-image: url("chrome://clone-it/skin/clone_Sprite_tab.png");
+	-moz-image-region: rect(0px 72px 32px 40px);
+}
+#toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewWindow{
+	list-style-image: url("chrome://clone-it/skin/clone_Sprite_window.png");
+	-moz-image-region: rect(0px 16px 16px 0px);
+}
+#toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewWindow[cui-areatype="menu-panel"]{
+	list-style-image: url("chrome://clone-it/skin/clone_Sprite_window.png");
+	-moz-image-region: rect(0px 72px 32px 40px);
+}
+
+#toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewWindow:not([cui-areatype="toolbar"])> .toolbarbutton-icon{
+	list-style-image: url("chrome://clone-it/skin/clone_Sprite_window.png");
+	-moz-image-region: rect(0px 72px 32px 40px);
+}

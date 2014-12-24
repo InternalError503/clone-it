@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
+<?xml-stylesheet href="chrome://clone-it/skin/cloneStyle.css" type="text/css"?>
 <!-- 
 Copyright (c) 2014 8pecxstudios.com
-Use of clone it code is strictly by permissions only even tho its very simple code.
 -->
 <!DOCTYPE overlay [
 <!ENTITY % localeDTD SYSTEM "chrome://clone-it/locale/locale.dtd" >
@@ -21,4 +21,19 @@ Use of clone it code is strictly by permissions only even tho its very simple co
 					label="&clonecurrentwindow.label;" 
 					oncommand="cloneThisTabToNewWindow.CloneCurrentTabNewWindow();" position="4"/>
 	</menupopup>	
+	<toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewTab" 
+					   class="toolbarbutton-1 chromeclass-toolbar-additional "	
+					   tooltiptext="&clonecurrenttab.label;"  
+					   label="&clonecurrenttab.label;" 
+					   oncommand="cloneThisTabToNewTab.CloneCurrentTab();">
+        </toolbarbutton>
+        <toolbarbutton id="toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewWindow" 
+					   class="toolbarbutton-1 chromeclass-toolbar-additional "	
+					   tooltiptext="&clonecurrentwindow.label;"  
+					   label="&clonecurrentwindow.label;" 
+					  oncommand="cloneThisTabToNewWindow.CloneCurrentTabNewWindow();">
+        </toolbarbutton>		
+    </toolbarpalette>		
+	
 </overlay>
