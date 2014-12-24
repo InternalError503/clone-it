@@ -8,7 +8,7 @@ Use of clone it code is strictly by permissions only even tho its very simple co
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>clone-it@8pecxstudios.com</em:id>
-    <em:version>1.0.5</em:version>
+    <em:version>1.0.6</em:version>
 	<em:type>2</em:type>
 	<em:iconURL>chrome://clone-it/skin/icon32.png</em:iconURL>
 	<em:icon64URL>chrome://clone-it/skin/icon64.png</em:icon64URL>
@@ -32,6 +32,7 @@ Use of clone it code is strictly by permissions only even tho its very simple co
 	<!-- Special Thanks List -->
 	<em:translator>zauber600 (de (German))</em:translator>
 	<em:translator>Michel Gagnon (fr (French))</em:translator>	
-	<em:translator>はりを (ja (Japanese))</em:translator>	
+	<em:translator>はりを (ja (Japanese))</em:translator>
+	<em:translator>Bekir Uçarci (tr (Turkish))</em:translator>		
   </Description>      
 </RDF>
