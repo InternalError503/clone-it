@@ -8,7 +8,7 @@ Use of clone it code is strictly by permissions only even tho its very simple co
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>clone-it@8pecxstudios.com</em:id>
-    <em:version>1.0.4</em:version>
+    <em:version>1.0.5</em:version>
 	<em:type>2</em:type>
 	<em:iconURL>chrome://clone-it/skin/icon32.png</em:iconURL>
 	<em:icon64URL>chrome://clone-it/skin/icon64.png</em:icon64URL>
@@ -19,18 +19,19 @@ Use of clone it code is strictly by permissions only even tho its very simple co
       <Description>
 		<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>22.0.*</em:minVersion>
-        <em:maxVersion>29.0.*</em:maxVersion>
+        <em:maxVersion>30.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 	
 	<!-- Front End MetaData -->
     <em:name>Clone It</em:name>
-    <em:description>Allows easy duplication of current tab in new tab or window similar to google chrome, This feature is already available by holding down ctrl and dragging the tab to left or right.</em:description>
+    <em:description>Allows easy duplication of current tab in new tab or window, Similar to Goggle chrome default feature, This feature is already available by holding down CTRL key or Command + dragging the tab to left or right.</em:description>
 	
     <em:creator>8pecxstudios</em:creator>
     <em:homepageURL>https://8pecxstudios.com/</em:homepageURL>
 	<!-- Special Thanks List -->
-	<em:contributor>zauber600 (de (German))</em:contributor>
-	<em:contributor>Michel Gagnon (fr (French))</em:contributor>	
+	<em:translator>zauber600 (de (German))</em:translator>
+	<em:translator>Michel Gagnon (fr (French))</em:translator>	
+	<em:translator>はりを (ja (Japanese))</em:translator>	
   </Description>      
 </RDF>
