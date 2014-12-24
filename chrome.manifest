@@ -3,11 +3,13 @@ skin clone-it classic/1.0 chrome/skin/
 overlay chrome://browser/content/browser.xul chrome://clone-it/content/clone-it.xul
 
 #Locales
+locale clone-it da chrome/locale/da/
 locale clone-it de chrome/locale/de/
 locale clone-it en-US chrome/locale/en-US/
 locale clone-it fr chrome/locale/fr/
 locale clone-it ja chrome/locale/ja/
-locale clone-it tr chrome/locale/tr/
+locale clone-it nb-NO chrome/locale/nb-NO/
 locale clone-it ro chrome/locale/ro/
 locale clone-it ru chrome/locale/ru/
-
+locale clone-it sv-SE chrome/locale/sv-SE/
+locale clone-it tr chrome/locale/tr/

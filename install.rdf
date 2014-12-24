@@ -7,7 +7,7 @@ Copyright (c) 2014 8pecxstudios.com
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>clone-it@8pecxstudios.com</em:id>
-    <em:version>1.0.9</em:version>
+    <em:version>1.1.0</em:version>
 	<em:type>2</em:type>
 	<em:iconURL>chrome://clone-it/skin/icon32.png</em:iconURL>
 	<em:icon64URL>chrome://clone-it/skin/icon64.png</em:icon64URL>
@@ -17,8 +17,8 @@ Copyright (c) 2014 8pecxstudios.com
     <em:targetApplication>
       <Description>
 		<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>22.0.*</em:minVersion>
-        <em:maxVersion>35.*</em:maxVersion>
+        <em:minVersion>29.0.*</em:minVersion>
+        <em:maxVersion>37.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 	
@@ -32,6 +32,7 @@ Copyright (c) 2014 8pecxstudios.com
 	<em:translator>zauber600 (de (German))</em:translator>
 	<em:translator>Michel Gagnon (fr (French))</em:translator>	
 	<em:translator>はりを (ja (Japanese))</em:translator>
-	<em:translator>Bekir Uçarci (tr (Turkish))</em:translator>		
+	<em:translator>Bekir Uçarci (tr (Turkish))</em:translator>
+	<em:translator>Sc0rpi0 (da (Danish), nb-NO (Norwegian), sv-SE( Swedish))</em:translator>	
   </Description>      
 </RDF>
