@@ -1,5 +1,10 @@
 content clone-it chrome/content/
-locale clone-it en-US chrome/locale/en-US/
 skin clone-it classic/1.0 chrome/skin/
 overlay chrome://browser/content/browser.xul chrome://clone-it/content/clone-it.xul
+
+#Locales
+locale clone-it en-US chrome/locale/en-US/
+locale clone-it de chrome/locale/de/
+locale clone-it fr chrome/locale/fr/
+locale clone-it ru chrome/locale/ru/
 

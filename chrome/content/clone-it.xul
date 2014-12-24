@@ -4,8 +4,8 @@ Copyright (c) 2013 8pecxstudios
 Use of this code is strictly by permissions only even tho its very simple code.
 -->
 <!DOCTYPE overlay [
-<!ENTITY % en-USDTD SYSTEM "chrome://clone-it/locale/en-US.dtd" >
-%en-USDTD;
+<!ENTITY % localeDTD SYSTEM "chrome://clone-it/locale/locale.dtd" >
+%localeDTD;
 ]>
 
 <overlay id="clone-it"
