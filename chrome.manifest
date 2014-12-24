@@ -1,0 +1,4 @@
+content clone-it chrome/content/
+skin clone-it classic/1.0 chrome/skin/
+overlay chrome://browser/content/browser.xul chrome://clone-it/content/clone-it.xul
+

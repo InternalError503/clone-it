@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- 
+Copyright (c) 2013 8pecxstudios
+This addon is designed for temporary use as its been integrated into cyberfox release.
+Use of this code is strictly by permissions only even tho its very simple code.
+-->
+<overlay id="clone-it"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script src="chrome://clone-it/content/overlay.js"/>
+<!--Clones current tab into new tab-->
+	<menupopup id="tabContextMenu">
+		<menuitem id="context_CloneCurrentTab" 
+					label="Clone Current Tab" 
+					oncommand="CloneCurrentTab();" position="3"/>	
+<!--Clones current tab into new window-->					
+		<menuitem id="context_CloneCurrentTabNewWindow" 
+					label="Clone In New Window" 
+					oncommand="CloneCurrentTabNewWindow();" position="4"/>
+	</menupopup>	
+</overlay>
