@@ -9,7 +9,7 @@ Use of this code is strictly by permissions only even tho its very simple code.
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>clone-it@8pecxstudios.com</em:id>
-    <em:version>0.0.4</em:version>
+    <em:version>1.0.1</em:version>
 	<em:type>2</em:type>
 	<em:iconURL>chrome://clone-it/skin/icon32.png</em:iconURL>
 	<em:icon64URL>chrome://clone-it/skin/icon64.png</em:icon64URL>
