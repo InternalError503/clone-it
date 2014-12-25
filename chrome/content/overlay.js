@@ -11,8 +11,8 @@ try{
 	}
 		}
 			}catch (e){
-			//Catch any nasty errors and output to console
-			console.log("Were sorry, Something has gone wrong trying to clone the tab! " + e);			
+			//Catch any nasty errors and output to dialogue
+			alert("Were sorry, Something has gone wrong trying to clone the tab! " + e);			
 		}
 	},
 
@@ -25,8 +25,8 @@ try{
 	}
 		}
 			}catch (e){
-			//Catch any nasty errors and output to console
-			console.log("Were sorry, Something has gone wrong trying to clone the current tab to a new window! " + e);
+			//Catch any nasty errors and output to dialogue
+			alert("Were sorry, Something has gone wrong trying to clone the current tab to a new window! " + e);
 		}		
 	}
 	
