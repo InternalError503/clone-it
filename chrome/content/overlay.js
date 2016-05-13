@@ -6,7 +6,7 @@ try{
 
 	if (gURLBar.value){
 	var UrlToClone = gURLBar.value;{
-		gBrowser.selectedTab = openUILinkIn(UrlToClone, 'tab');		
+		gBrowser.selectedTab = openUILinkIn(UrlToClone, 'tab', { relatedToCurrent: true });		
 	}
 		}
 			}catch (e){
