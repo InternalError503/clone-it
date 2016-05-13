@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://clone-it/skin/cloneStyle.css" type="text/css"?>
-<!-- 
-Copyright (c) 2014 8pecxstudios.com
--->
+
 <!DOCTYPE overlay [
 <!ENTITY % localeDTD SYSTEM "chrome://clone-it/locale/locale.dtd" >
 %localeDTD;
