@@ -1,6 +1,5 @@
-
-
-var cloneIT = {
+(function(global){
+cloneIT = {
 
 CloneCurrentTab : function(e) {
 try{
@@ -31,3 +30,4 @@ try{
 	}
 	
 }	
+}(this));	
