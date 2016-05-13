@@ -11,22 +11,22 @@
 <script src="chrome://clone-it/content/overlay.js"/>
 <!--Clones current tab into new tab-->
 	<menupopup id="tabContextMenu">
-		<menuitem id="context_CloneCurrentTab" 
+		<menuitem id="context_F29AA_CloneCurrentTab" 
 					label="&clonecurrenttab.label;" 
 					oncommand="cloneIT.CloneCurrentTab();" position="3"/>	
 <!--Clones current tab into new window-->					
-		<menuitem id="context_CloneCurrentTabNewWindow" 
+		<menuitem id="context_F29AA_CloneCurrentTabNewWindow" 
 					label="&clonecurrentwindow.label;" 
 					oncommand="cloneIT.CloneCurrentTabNewWindow();" position="4"/>
 	</menupopup>	
 	<toolbarpalette id="BrowserToolbarPalette">
-        <toolbarbutton id="toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewTab" 
+        <toolbarbutton id="toolbar_F29AA_cloneNewTab" 
 					   class="toolbarbutton-1 chromeclass-toolbar-additional "	
 					   tooltiptext="&clonecurrenttab.label;"  
 					   label="&clonecurrenttab.label;" 
 					   oncommand="cloneIT.CloneCurrentTab();">
         </toolbarbutton>
-        <toolbarbutton id="toolbar_F29AA476641771F8EFF04935C0FF1422_cloneNewWindow" 
+        <toolbarbutton id="toolbar_F29AA_cloneNewWindow" 
 					   class="toolbarbutton-1 chromeclass-toolbar-additional "	
 					   tooltiptext="&clonecurrentwindow.label;"  
 					   label="&clonecurrentwindow.label;" 
