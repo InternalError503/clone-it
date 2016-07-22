@@ -9,6 +9,7 @@ locale clone-it en-US chrome/locale/en-US/
 locale clone-it fr chrome/locale/fr/
 locale clone-it ja chrome/locale/ja/
 locale clone-it nb-NO chrome/locale/nb-NO/
+locale clone-it pl chrome/locale/pl/
 locale clone-it ro chrome/locale/ro/
 locale clone-it ru chrome/locale/ru/
 locale clone-it sv-SE chrome/locale/sv-SE/
