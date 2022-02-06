@@ -1,7 +1,9 @@
 clone-it
 ========
 
-Download this addon from [addons.mozilla.org] (https://addons.mozilla.org/en-US/firefox/addon/clone-it)
+Not compatible with current Firefox releases.
+
+~~Download this addon from [addons.mozilla.org] (https://addons.mozilla.org/en-US/firefox/addon/clone-it)~~
 
 Source Code Repository For Clone It
 
